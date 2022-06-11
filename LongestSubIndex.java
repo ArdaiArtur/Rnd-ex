@@ -3,6 +3,12 @@
  */
 public class LongestSubIndex {
 
+    public static void main(String[] args) {
+        String s="abcabcbb";
+       System.out.println( lengthOfLongestSubstring(s));
+
+    }
+
     //index counting 
     public int lengthOfLongestSubstring(String s) {
         int left = 0;
