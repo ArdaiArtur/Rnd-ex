@@ -10,7 +10,7 @@ public class LongestSubIndex {
     }
 
     //index counting 
-    public int lengthOfLongestSubstring(String s) {
+    public  static int lengthOfLongestSubstring(String s) {
         int left = 0;
         int right = 0;
         int result = 0;
