@@ -20,15 +20,16 @@ public class MinDeletionsToMakeCharacterFrequenciesUnique {
             }
             else
             {
-                while(hs.contains(i) || i>0)
+                while(hs.contains(i) && i>0)
                 {
                     System.out.println(i);
                     i--;
                     db++;
                 }
+                System.out.println(i+"+");
                 hs.add(i);
             }
         }
-        return db-1;
+        return db;
 }
 }
