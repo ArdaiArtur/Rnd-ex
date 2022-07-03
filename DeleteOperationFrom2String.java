@@ -1,4 +1,4 @@
-import javax.lang.model.util.ElementScanner14;
+
 
 public class DeleteOperationFrom2String {
     public static void main(String[] args) {

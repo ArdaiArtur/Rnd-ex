@@ -8,7 +8,7 @@ public class ShortEncodingWords {
         minimumLengthEncoding(s);
     }
     public  static int minimumLengthEncoding(String[] words) {
-        Set<String> good = new HashSet(Arrays.asList(words));
+        Set<String> good = new HashSet<>(Arrays.asList(words));
         for (String word: words) {
             System.out.println(word+" word");
             for (int k = 1; k < word.length(); ++k)
