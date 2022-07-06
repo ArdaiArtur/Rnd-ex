@@ -1,6 +1,6 @@
 public class LongestPalindromicSubstring {
     public static void main(String[] args) {
-        String s="babadsaad";
+        String s="babadaad";
         
        System.out.println( longestPalindrome(s));
     }
