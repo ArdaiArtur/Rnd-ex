@@ -10,7 +10,7 @@ public class longestprefix {
     }
    
 
-    public String longestCommonPrefix(String[] strs) {
+    public  static String longestCommonPrefix(String[] strs) {
         String s=strs[0];
         for (int i = strs.length-1; i >0 ; i--) {
              

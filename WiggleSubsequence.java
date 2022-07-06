@@ -2,7 +2,7 @@ public class WiggleSubsequence {
     public static void main(String[] args) {
         
     }
-    public int wiggleMaxLength(int[] nums) {
+    public  static int wiggleMaxLength(int[] nums) {
         if (nums.length < 2)
             return nums.length;
         int down = 1, up = 1;

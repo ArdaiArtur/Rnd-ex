@@ -6,7 +6,7 @@ public class NonDecreasingArray {
     public static void main(String[] args) {
         
     }
-    public boolean checkPossibility(int[] nums) {
+    public static boolean checkPossibility(int[] nums) {
         int db=0;
       for (int i = 1; i < nums.length; i++) {
           if(nums[i-1]>nums[i])
